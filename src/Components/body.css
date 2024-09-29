@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero {
+    max-width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.shoe-img {
+    background-image: url("../assets/shoes.png");
+    width: 532px;
+    height: 457px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0 auto;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.words h1 {
+    max-width: 32vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+}
+
+.words p {
+    max-width: 32vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(91, 91, 91);
+}
+
+.option {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.option :nth-child(1) {
+    border: 1px solid red;
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.option :nth-child(2) {
+    border: 1px solid rgb(67, 67, 67);
+    width: 80px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(66, 66, 66);
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.option :nth-child(1):hover,
+.option :nth-child(2):hover {
+    transform: scale(1.05);
+}
+
+.flipkart {
+    background-image: url("../assets/flipkart.png");
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.amazon {
+    background-image: url("../assets/amazon.png");
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
